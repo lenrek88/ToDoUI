@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="Style/Reset.css">
     <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
-<style>
-    .alert {
-        padding: 15px;
-        border: 1px solid #d6e9c6;
-        border-radius: 4px;
-        color: #3c763d;
-        background-color: #dff0d8;
-    }
-</style>
 
-<div class="alert" id="div">
-    <strong>Всем привет!</strong> Вы прочитали важное сообщение.
-</div>
+<main>
+    <div class="content">
+        <div class="text one">HIGH</div>
+        <form class="task add" >
+            <input class="new task" type="text" value placeholder="Добавить важных дел">
+            <button class="sumbit task" data-priority="high"></button>
+        </form>
+        <div class="high-task">
+            <div class="add-task" id=0>
+                <form class="not-completed">
+                    <input type="checkbox" value="Сверстать этот TODO list" placeholder="Добавить важных дел">
+                    <label>Сверстать этот TODO list</label>
+                    <button type="button" class="buttonDelete" id="0"></button>
+                </form>
+            </div>
 
-<script>
-    let div2 = div.cloneNode(true); // клонировать сообщение
-    div2.querySelector('strong').innerHTML = 'Всем пока!'; // изменить клонированный элемент
+        </div>
+        <div class="text one">LOW</div>
+        <form class="task add">
+            <input class="new task" type="text" value placeholder="Добавить важных дел">
+            <button class="sumbit task" data-priority="low"></button>
+        </form>
+        <div class="low-task">
+            <div class="add-task" id=1>
+                <form class="not-completed">
+                    <input type="checkbox" value="Сверстать этот TODO list" placeholder="Добавить важных дел" name="Сверстать этот TODO list">
+                    <label>Убраться в комнате</label>
+                    <button type="button" class="buttonDelete" id=1 ></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
 
-    div.after(div2); // показать клонированный элемент после существующего div
-</script>
 <script src="Script/main.js"></script>
 </body>
 </html>
