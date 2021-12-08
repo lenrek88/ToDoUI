@@ -75,10 +75,16 @@ html {
     transition: .3s;
 }
 
-.done{
+.not-completed.done{
     background-color: #F4F4F4;
     transition: .3s;
 }
+
+.not-completed.done input{
+    background-color: #C4C4C4;
+    transition: .3s;
+}
+
 .add-task input{
     background-size: cover;
     padding: 0.2vh 1vh 0 0;
@@ -92,10 +98,7 @@ html {
     outline: 0.1vh solid #998899;
 }
 
-.not-completed.done input{
-    background-color: #C4C4C4;
-    transition: .3s;
-}
+
 
 .add-task label{
     max-width: 35vh;
