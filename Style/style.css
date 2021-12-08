@@ -6,6 +6,11 @@ html {
     font-size: 1.8vh;
 
 }
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+}
+
 .content{
     width: 44.673vh;
     background-color: white;
@@ -87,8 +92,9 @@ html {
     height: 2.3vh;
     cursor: pointer;
     background-color: transparent;
-    -webkit-border-radius: 50vh;
-    border: 0.2vh solid #fff;
+    border-radius: 50vh;
+    border: 0.2vh solid #fff; /* было #fff */
+    box-shadow: 0.1vh #998899;
     appearance: none;
     /*outline: 0.1vh solid #998899;*/
     color: white;
