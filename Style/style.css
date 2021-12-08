@@ -87,7 +87,7 @@ html {
     width: 2.3vh;
     height: 2.3vh;
     cursor: pointer;
-    background-color: red;
+    background-color: transparent;
     border-radius: 50vh;
     border: 0.2vh solid #fff;
     appearance: none;
