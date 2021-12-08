@@ -68,11 +68,10 @@ html {
     border: 0.1vh solid #989898;
     border-radius: 0.6vh;
     transition: 0.2s;
-    padding: 0;
     display: flex;
     min-height: inherit;
     justify-content: space-between;
-    padding: 1.5vh;
+    padding: 1.2vh;
     transition: .3s;
 }
 
@@ -82,7 +81,7 @@ html {
 }
 .not-completed input{
 
-
+    margin: 0;
     background-size: cover;
     padding: 0.2vh 1vh 0 0;
     width: 2.3vh;
