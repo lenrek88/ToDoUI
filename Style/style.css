@@ -80,7 +80,6 @@ html {
     transition: .3s;
 }
 .not-completed input{
-
     margin: 0;
     background-size: cover;
     padding: 0.2vh 1vh 0 0;
@@ -93,7 +92,6 @@ html {
     appearance: none;
     outline: 0.1vh solid #998899;
     -webkit-appearance: none;
-
 }
 
 .not-completed.done input:checked{
@@ -114,5 +112,4 @@ html {
     height: 2vh;
     background: url(/Style/cross.svg) no-repeat;
     background-size: cover;
-
 }
