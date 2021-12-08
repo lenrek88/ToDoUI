@@ -81,9 +81,7 @@ html {
     transition: .3s;
 }
 .not-completed input{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+
 
     background-size: cover;
     padding: 0.2vh 1vh 0 0;
@@ -97,7 +95,7 @@ html {
     outline: 0.1vh solid #998899;
 }
 
-.not-completed.done input{
+.not-completed.done input:checked{
     background-color: #C4C4C4;
     transition: .3s;
 }
