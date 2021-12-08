@@ -93,6 +93,7 @@ html {
     appearance: none;
     outline: 0.1vh solid #998899;
     -webkit-appearance: none;
+
 }
 
 .not-completed.done input:checked{
