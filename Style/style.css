@@ -87,10 +87,7 @@ html {
     height: 2.3vh;
     cursor: pointer;
     background-color: transparent;
-    border-top-left-radius: 50vh;
-    border-top-right-radius: 50vh;
-    border-bottom-right-radius: 50vh;
-    border-bottom-left-radius: 50vh;
+    -webkit-border-radius: 50vh;
     border: 0.2vh solid #fff;
     appearance: none;
     outline: 0.1vh solid #998899;
