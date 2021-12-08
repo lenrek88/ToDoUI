@@ -6,7 +6,6 @@ function isAddTask(evt) {
 
     idValue += 1;                                                                                                       // Счётчик id
 
-    let idChange = 0;                                                                                                   // Счётчик для change Done
     let textHigh;
     let areaHighTask;
 
