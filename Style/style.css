@@ -110,6 +110,6 @@ html {
     padding: 0;
     width: 2vh;
     height: 2vh;
-    background: url(/Style/cross.svg) no-repeat;
+    background: url(../Style/cross.svg) no-repeat;
     background-size: cover;
 }
