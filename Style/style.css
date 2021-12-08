@@ -88,7 +88,8 @@ html {
     cursor: pointer;
     background-color: transparent;
     -webkit-border-radius: 50vh;
-    border: 0.2vh solid #fff;
+    /*border: 0.2vh solid #fff;*/
+    border: none;
     appearance: none;
     outline: 0.1vh solid #998899;
     -webkit-appearance: none;
