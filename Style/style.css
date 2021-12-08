@@ -1,3 +1,5 @@
+input,button,textarea,select{-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-border-radius:0px}input[type="checkbox"]{-webkit-appearance:checkbox;-moz-appearance:checkbox;appearance:checkbox}input[type="radio"]{-webkit-appearance:radio;-moz-appearance:radio;appearance:radio-button}
+
 html {
     background-color: lightgrey;
     font-family: "Roboto", sans-serif;
@@ -79,13 +81,7 @@ html {
     background-color: #F4F4F4;
     transition: .3s;
 }
-
-.not-completed.done input{
-    background-color: #C4C4C4;
-    transition: .3s;
-}
-
-.add-task input{
+.not-completed input{
     background-size: cover;
     padding: 0.2vh 1vh 0 0;
     width: 2.3vh;
@@ -98,7 +94,10 @@ html {
     outline: 0.1vh solid #998899;
 }
 
-
+.not-completed.done input{
+    background-color: #C4C4C4;
+    transition: .3s;
+}
 
 .add-task label{
     max-width: 35vh;
