@@ -88,10 +88,10 @@ html {
     cursor: pointer;
     background-color: transparent;
     -webkit-border-radius: 50vh;
-    /*border: 0.2vh solid #fff;*/
-    border: none;
+    border: 0.2vh solid #fff;
     appearance: none;
-    outline: 0.1vh solid #998899;
+    /*outline: 0.1vh solid #998899;*/
+    color: white;
 }
 
 .not-completed.done input:checked{
