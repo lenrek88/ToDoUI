@@ -4,11 +4,8 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 1.8vh;
+    -webkit-tap-highlight-color: transparent;
 
-}
-
-input[type=checkbox]{
-    -webkit-appearance: checkbox;
 }
 
 .content{
@@ -87,15 +84,18 @@ input[type=checkbox]{
 .not-completed input{
     margin: 0;
     background-size: cover;
-    padding: 0.2vh 1vh 0 0;
+    /*padding: 0.2vh 1vh 0 0;*/
     width: 2.3vh;
     height: 2.3vh;
     cursor: pointer;
     background-color: transparent;
     border-radius: 50vh;
     -webkit-border-radius: 50vh;
-    border: 0.2vh solid #fff;
-    outline:  0.1vh solid #998899;
+    border: 0.2vh solid #998899;
+
+    /*outline:  0.1vh solid #998899;*/
+    outline: none;
+
     color: white;
 
     /* for phone */
@@ -106,6 +106,7 @@ input[type=checkbox]{
 
 .not-completed.done input:checked{
     background-color: #C4C4C4;
+    padding: 10px;
 }
 
 .add-task label{
