@@ -93,14 +93,13 @@ input[type=checkbox]{
     cursor: pointer;
     background-color: transparent;
     border-radius: 50vh;
-    border: 0.2vh solid #fff; /* было #fff */
-    box-shadow: 0.1vh #998899;
-    appearance: none;
+    border: 0.2vh solid #fff;
     outline:  0.1vh solid #998899;
     color: white;
 
     /* for phone */
-
+    appearance: none;
+    -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
 }
 
