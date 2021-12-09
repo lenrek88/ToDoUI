@@ -93,6 +93,7 @@ input[type=checkbox]{
     cursor: pointer;
     background-color: transparent;
     border-radius: 50vh;
+    -webkit-border-radius: 50vh;
     border: 0.2vh solid #fff;
     outline:  0.1vh solid #998899;
     color: white;
